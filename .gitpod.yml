@@ -1,0 +1,12 @@
+image:
+  file: .gitpod.Dockerfile
+ 
+tasks:
+  - init: dotnet restore
+  - command: dotnet build --configuration Release
+  - command: dotnet test --configuration Release --no-build --verbosity normal
+ 
+vscode:
+  extensions:
+    - ms-dotnettools.csharp
+    - ms-vscode.csharp
