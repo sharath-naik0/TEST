@@ -14,5 +14,3 @@ This project contains Selenium C# tests to validate functionalities on LambdaTes
 4. Build the project: `dotnet build`
 5. Run the tests: `dotnet test`
 
-## Notes
-Ensure that you have network logs, video recording, and screenshots enabled in your tests.
